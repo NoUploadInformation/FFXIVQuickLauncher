@@ -82,6 +82,11 @@ namespace XIVLauncher.Common.Dalamud
                     // ignored
                 }
 
+                if (entry.FileName == "UIRes/bannedplugin.json")
+                {
+                    continue;
+                }
+
                 var refreshFile = false;
 
                 if (File.Exists(filePath) && !string.IsNullOrEmpty(entry.Hash))

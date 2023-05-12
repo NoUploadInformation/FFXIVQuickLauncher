@@ -38,7 +38,7 @@ namespace XIVLauncher.Windows
             {
 #endif
                 CustomMessageBox.Show(
-                    $"你正在使用一个不受支持的XLLauncher版本！\n\n有可能不安全或对账号带来危害。 请从 {App.REPO_URL}/releases 下载干净的版本并重新安装或联系我们。",
+                    $"这是不会上传用户信息,不会禁止插件的纯净版本. 如果信不过！ 请从 {App.REPO_URL}/releases 下载官方的版本并重新安装或联系TA们。",
                     "XIVLauncherCN", MessageBoxButton.OK, MessageBoxImage.Exclamation, parentWindow: this);
 #if !XL_NOAUTOUPDATE
             }
